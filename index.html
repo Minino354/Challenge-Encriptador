@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Cipher</title>
+</head>
+<body>
+    <div class="header">
+        <h1 >cipher</h1>
+    </div>
+    <main>
+        <section class="content_1">
+            <textarea cols="28" rows="13" placeholder="Ingrese el texto aquí" id="textoInicial"></textarea>
+            <p class="advertencia"><img src="Imagenes/Green.svg" class="changeColor"> Solo letras minúsculas, sin caracteres especiales</p>
+            <div class="buttoms">
+            <button id="encriptar" onclick="encriptarTexto()" >Encriptar</button>
+            <button id="desencriptar" onclick="desencriptarTexto()">Desencriptar</button>
+        </section>
+        <div class="texto_retorno" id="inicial" >
+            <p class="bold">Ningún mensaje fue encontrado </p>
+            <p class="e">Ingresa el texto que desees encriptar o desencriptar primero</p>
+            <img src="Imagenes/cat.gif">
+        </div>
+        <div class="texto_retorno" id="final" hidden>
+            <p class="textoCopiado"></p>
+            <div>
+                <button id="copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p> Desarrollado por Lizzy Huayhua - 2024 
+            <a href="https://github.com/Minino354?tab=overview&from=2024-01-01&to=2024-01-31">
+                <img src="Imagenes/Github.svg" class="footer">
+            </a>
+        </p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+

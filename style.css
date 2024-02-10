@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: #FED586;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header h1{
+    font-size: 64px;
+    color: #0A7127;
+}
+
+.content_1{
+    width: 100%;
+    text-align: center;
+}
+
+.content_1 textarea{
+    background-color: #FED586;
+    border-color: #0A7127;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 18px;
+    font-size: 20px;
+    resize: none;
+}
+
+textarea::placeholder{
+    padding: 5px;
+    color: black;
+}
+
+.content_1 p{
+    font-size: 20px;
+}
+
+
+button{
+    border: 2px solid #0A7127;
+    background-color: #0A7127;
+    color: white;
+    width: 30%;
+    height: 60px;
+    padding: 5px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.texto_retorno{
+    background-color:white ;
+    text-align: center;
+    margin: 0 auto;
+    width: 340px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    /*saltos de linea */
+    word-wrap: break-word;
+}
+.texto_retorno p{
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+
+.bold{
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.texto_retorno img{
+    width: 150px;
+    height: 150px;
+    padding-top: 0;
+}
+
+.texto_retorno button{
+    background-color: white;
+    color: #0A7127;
+    font-weight: bold;
+    border-width: 3px;
+}
+
+#encriptar:hover{
+    background-color:#3aaa5a;
+    border-color: #3aaa5a;
+}
+#desencriptar:hover{
+    background-color:#3aaa5a;
+    border-color: #3aaa5a;
+}
+
+.textoCopiado{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+#copiar{
+    background-color: white;
+    color: #453bcf;
+    border-color: #453bcf;
+}
+#copiar:hover{
+    background-color: #453bcf;
+    color: white;
+    border-color: #453bcf;
+}
+
+.animacion{
+    animation: vibrate 1s linear infinite;
+    color:rgb(223, 21, 21);
+    font-weight: bold;
+}
+
+@keyframes vibrate {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-3px); }
+    50% { transform: translateX(3px); }
+    75% { transform: translateX(-3px); }
+    100% { transform: translateX(3px); }
+  }
+
+  .changeColor{
+    color: red;
+  }
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: #0A7127;
+    font-size: 15px;
+}
+footer p{
+    padding-right: 5px;
+}
+
+footer img{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 35px;
+}
+
+.e{
+    margin: 15px;
+}
+
+
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+    button{
+        border: 2px solid #0A7127;
+        background-color: #0A7127;
+        color: white;
+        width: 40%;
+        height: 60px;
+        padding: 5px 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 15px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+
+    .content_1 p{
+        font-size: 15px;
+    }
+
+    .textoCopiado{
+        font-size: 20px;
+    }
+    .content_1 textarea {
+        width: 350px;
+    }
+    footer p{
+        font-size: 13px;
+    }
+    footer img{
+        width: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
