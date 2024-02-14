@@ -252,7 +252,7 @@ footer img{
 
 
 
-@media only screen and ((min-width: 970px) and (max-width: 1500px)){
+@media only screen and (min-width: 970px){
     main{
         display: flex;
         height: 495px;
