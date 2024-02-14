@@ -15,7 +15,7 @@ function encriptarTexto(){
     .replaceAll('u', 'ufat')
     if (checkRequirements(texto)){
         if(texto.length >0){
-            if (texto.length < 100){
+            if (texto.length < 160){
                 let textInicial = document.querySelector("#inicial");
                 textInicial.setAttribute("hidden","false");
             
@@ -27,7 +27,7 @@ function encriptarTexto(){
                 document.getElementById("textoInicial").value = "";
             }
             else{
-                let mensaje = "El maximo de caracteres permitidos es 100"
+                let mensaje = "El maximo de caracteres permitidos es 160"
                 alert(mensaje)
                 document.getElementById("textoInicial").value = "";
             }
