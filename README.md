@@ -6,3 +6,8 @@ Utilice Css, HTML y Javascript para realizarlo.
 
 *Solo acepta letras minusculas
 *No acepta signos especiales excepto signos de exclamacion e interrogacion
+
+
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
