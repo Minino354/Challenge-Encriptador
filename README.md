@@ -4,10 +4,6 @@ Se nos pidio hacer un programa capaz de encriptar textos.
 Utilice Css, HTML y Javascript para realizarlo.
 <h2>Caracteristicas del encriptador</h2>
 
-*Solo acepta letras minusculas
-*No acepta signos especiales excepto signos de exclamacion e interrogacion
-
-
-* Unordered list can use asterisks
-- Or minuses
+* Solo acepta letras minusculas
+- No acepta signos especiales excepto signos de exclamacion e interrogacion
 + Or pluses
