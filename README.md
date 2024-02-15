@@ -9,7 +9,7 @@ Utilice Css, HTML y Javascript para realizarlo.
 + No acepta letras con aceptos
 + Acepta un maximo de 160 palabras para encriptar
 + Acepta un maximo de 300 palabras para desencriptar
-+ Las "llaves" de encriptación que utilizaremos son las siguientes:
++ Las "llaves" de encriptación que se utilizo son las siguientes:
   - La letra "e" es convertida para "enter"
   - La letra "i" es convertida para "imes"
   - La letra "a" es convertida para "ai"
