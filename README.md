@@ -5,5 +5,7 @@ Utilice Css, HTML y Javascript para realizarlo.
 <h2>Caracteristicas del encriptador</h2>
 
 * Solo acepta letras minusculas
-- No acepta signos especiales excepto signos de exclamacion e interrogacion
-+ Or pluses
+- No acepta caracteres especiales excepto signos de exclamacion e interrogacion
++ No acepta letras con aceptos
++ Acepta un maximo de 160 palabras para encriptar
++ Acepta un maximo de 300 palabras para desencriptar
